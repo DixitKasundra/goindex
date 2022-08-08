@@ -7,11 +7,16 @@ self.props = {
   // 'drives' will list all drives (My Drive & Teamdrives)
   ui: 'light', // light OR dark OR dark-orange
   // https://github.com/alx-xlx/goindex/tree/production/themes
-	client_id: '**********.apps.googleusercontent.com',
-	client_secret: '********',
-	refresh_token: '*********',
+	client_id: '746239575955-c4d2o1ahg4ts6ahm3a5lh5lp9g8m15h4.apps.googleusercontent.com'
+	client_secret: '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',
+	refresh_token: '1//0gcLSCisCTc-JCgYIARAAGBASNwF-L9IrAbC9D5Mzfg6VzzvCAL2D19fP_40t5qZFpboG6Oi3H-EoSut0V9vixLcU_104SjOMS3s',
 	auth: false,       // Add Authentication to your Indexed Drive
-	user: 'root',
+	user: {
+          "id": "0AK_AffMZzQKcUk9PVA",
+          "name": "Drive One",
+          "protect_file_link": false,
+         // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
+      },
 	pass: 'toor',
 	upload: true,    // Ability to Upload Files (Local / Remote)
 	lite: false
